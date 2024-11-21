@@ -114,6 +114,7 @@ nav li a:hover {
 main {
     display: flex;
     height: 785px;
+    justify-content: center;
 }
 
 .info-card {
@@ -130,9 +131,15 @@ main {
     animation: fadeIn 400ms;
 }
 
-#faq-block {
+#faq-block, #lodg-block {
     width: 90%;
-    height: 600px;
+    height: 800px;
+    margin-top: 30px;
+
+}
+
+#lodg-block {
+    margin-top: 10px;
 }
 
 .info-card img {
@@ -140,9 +147,25 @@ main {
     border-radius: 5px;
 }
 
-#faq-block img {
-    width: 60%;
+#faq-block img, #lodg-block img {
+    width: 90%;
 }
+
+
+#link-click img {
+    width: 500px;
+
+}
+
+#link-click h2 {
+    font-family: Roboto Flex;
+    color: white;
+    font-weight: 1200;
+    position: absolute;
+    margin-left: 40px;
+}
+
+
 
 
 .info-block, .title-pic {
@@ -150,10 +173,89 @@ main {
     margin-left: 20px;
 }
 
-.info-block {
-    margin-top: 100px;
+#link-click {
+    width: 500px;
+    margin: auto 10px;
 }
 
+#link-click img {
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+
+#link-click img:hover {
+    border: blue 5px solid;
+}
+
+.info-block {
+    margin-top: 100px;
+    
+}
+
+
+#learn-main {
+    display: flex;
+    width: 80%;
+    margin: auto 10%;
+    justify-content: center;
+    animation: fadeIn 400ms;
+
+
+}
+
+#faq-list {
+    height: 300px;
+    scrollbar-width:thin;
+    overflow-y: scroll;
+    border: 1px solid rgb(216, 216, 216);
+    border-right: none;
+    padding: 10px;
+}
+
+#faq-list p {
+    margin-top: 5px;
+}
+
+#faq-list h4 {
+    margin-bottom: 2px;
+}
+
+
+#faq-info {
+    width: 60%;
+    margin-right: 300px;
+  
+}
+
+#lodging-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute; 
+    top: 263px;
+    width: 55%;
+}
+#lodging-info img {
+    width: 195px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.lodging-block {
+    display: flex;
+}
+
+.lodging-block h2 {
+    margin-bottom: 1px;
+}
+
+.lodging-block p {
+    margin-top: 1px;
+}
+
+#lodging-main {
+    height: 825px;
+}
 footer {
     background-color: whitesmoke;
 }
