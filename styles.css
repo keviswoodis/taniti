@@ -337,6 +337,10 @@ footer {
     padding-left: 20px;
     height: 114px;
 }
+h1 a {
+    text-decoration: none;
+    color: black;
+}
 
 
 @keyframes fadeIn {
