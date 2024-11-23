@@ -134,11 +134,35 @@ main {
     animation: fadeIn 400ms;
 }
 
+#eat-info {
+    width: 65%;
+    align-items: center;
+    height: 600px;
+
+}
+
+#eat-info img {
+    height: 165px;
+    width: 165px;
+}
+
+#eat-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
 #faq-block, #lodg-block {
     width: 90%;
     height: 90%;
     margin-top: 30px;
 
+}
+
+#faq-block {
+    height: 600px;
+    width: 1500px;
 }
 
 #lodg-block {
@@ -215,17 +239,19 @@ main {
 
 #faq-list p {
     margin-top: 5px;
+    font-size: small;
 }
 
-#faq-list h4 {
+#faq-list h5 {
     margin-bottom: 2px;
 }
 
 
 #faq-info {
-    width: 60%;
-    margin-right: 300px;
-    margin-top: 50px;
+    width: 90%;
+    margin-right: 50px;
+    margin-top: 62px;
+    
 }
 
 #travel-info {
@@ -245,12 +271,9 @@ main {
     width: 30%;
 }
 .title-pic img {
-    width: 75%;
+    width: 100%;
 }
 
-#feature img {
-    width:500px;
-}
 #lodging-info img {
     width: 165px;
     height: 165px;
@@ -258,6 +281,19 @@ main {
     margin-right: 20px;
 }
 
+#faq-block img {
+    width: 470px;
+    margin-right: 1px;
+}
+
+#eat-block img {
+    width: 220px;
+    height: 220px;
+}
+
+#eat-infoblock {
+    width: 300px;
+}
 
 .lodging-block {
     display: flex;
@@ -299,6 +335,7 @@ footer {
     background-color: whitesmoke;
     border-top: 1px black solid;
     padding-left: 20px;
+    height: 114px;
 }
 
 
