@@ -235,11 +235,15 @@ main {
     top: 263px;
     width: 55%;
 }
+#lodg-block img {
+    width: 590x;
+}
 #lodging-info img {
     width: 195px;
     margin-bottom: 10px;
     margin-right: 20px;
 }
+
 
 .lodging-block {
     display: flex;
