@@ -136,8 +136,9 @@ main {
 #eat-info {
     width: 65%;
     align-items: center;
-    height: 600px;
-
+    height: 550px;
+    flex-direction: column;
+    margin-top: 5px;
 }
 
 #eat-info img {
@@ -149,7 +150,9 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 60%;
+    width: 90%;
+    height: 90%;
+    margin-top: 2px;
 }
 
 #faq-block, #lodg-block {
@@ -291,7 +294,7 @@ main {
 }
 
 #eat-infoblock {
-    width: 300px;
+    width: 800px;
 }
 
 .lodging-block {
